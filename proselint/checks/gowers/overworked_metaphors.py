@@ -16,9 +16,9 @@ from tools import memoize, existence_check
 
 @memoize
 def check_biggest_bottleneck(text):
-    """Use the registered trademark symbol instead of (R)."""
-    err = "gowers.mixed_metaphors"
-    msg = "Mixed metaphor: bottles with big necks are easy to pass through."
+    """Avoid overworked metaphors."""
+    err = "gowers.overworked_metaphors"
+    msg = "Overworked metaphor: bottles with big necks are easy to pass through."
     list = [
         "biggest bottleneck",
         "big bottleneck",
